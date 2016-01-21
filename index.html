@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Lovingly (sloppily) hand-written by a throwback to the 90s, in Vim">
+  <title>camtarn.org</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    #unicorns {
+      width: 100%;
+      max-width: 1440px;
+      height: 100%;
+      max-height: 862px;
+      margin: auto;
+      background: url( images/bg.jpg ) top center no-repeat;
+      background-size: contain;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    #are {
+      font-family: sans-serif;
+      font-size: 50px;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+
+      -ms-transform-origin: 0% 0%;
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+    }
+
+    #real {
+      width: 70%;
+      background: rgba( 0, 0, 0, 0.7 );
+      margin: 80px auto;
+      color: white;
+      border: 2px solid white;
+      padding: 20px;
+    }
+
+    #no {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      background: url( images/paisley-birds.jpg ) center center no-repeat;
+      background-size: cover;
+      color: white;
+      border: 2px solid white;
+      padding: 20px;
+      width: 300px;
+      -ms-transform: rotate(19deg);
+      -webkit-transform: rotate(19deg);
+      transform: rotate(19deg);
+    }
+
+    /* Courtesy of http://www.cssfontstack.com/ :) */
+    h1 {
+      font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+      font-size: 24px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 26.4px;
+    }
+    h2 {
+      font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+      font-size: 18px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 23px;
+    }
+    p, ul {
+      font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    a, a:active, a:visited {
+      color: white;
+    }
+
+    a:hover {
+      color: pink;
+    }
+
+    div.left, div.right, div.prop {
+      /* For curious readers: don't you just love floats? */
+      clear: both;
+    }
+
+    div.left, div.right {
+      width: 70%;
+      margin-top: 20px;
+    }
+
+    div.left p, div.right p {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    div.right {
+      float: right;
+      text-align: right;
+    }
+
+    div.really-left {
+      width: 55%;
+    }
+
+    .description {
+      color: #E29755;
+      font-size: 75%;
+    }
+
+    .making a img {
+      border: 1px solid #777;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="unicorns"></div>
+<div id="are">camtarn.org</div>
+<div id="real">
+  <h1>Hello.</h1>
+  <p>My name is Andy Walker.</p>
+
+  <p>I do a few things.</p>
+
+  <div class="left really-left">
+    <h1>I drum</h1>
+    <p>I taught myself to drum at the relatively late age of 21 or thereabouts, after having realized that a lifetime of tapping on desks, doors, beds, mugs and other people was clearly an omen. Nowadays I'm making up for lost time.</p>
+    <p>I currently co-lead the <a href="https://www.facebook.com/harbingersdrumcrew/">Harbingers Drum Crew</a>, a bloc of varying size (up to 25 occasionally!) playing pavement-smashing beats inspired by metal, taiko, samba and drum'n'bass.</p>
+    <p>I am sometimes found playing with the <a href="https://twitter.com/beastiedrummers">Beastie Drummers</a>, blasting out some party beats.</p>
+    <p>I played for about seven years with the <a href="http://edinburghsambaschool.org.uk">Edinburgh Samba School</a>.</p>
+    <p>Current projects: learning to play kit better, learning a bit of West African drumming.</p>
+  </div>
+
+  <div class="right">
+    <h1>I code</h1>
+    <p>My most used language is JavaScript. Not my favourite language design, exactly, but the language I constantly reach for whenever I have to automate some trivial browser-based task.  It's like that old saying about mobile phone cameras: the best camera is the one that's always with you. I also spent three years building a CoffeeScript-based rich web app in a distributed team, which has given me some opinions about type safety and the usefulness thereof.</p>
+    <p>My other main languages are Java and Ruby.</p>
+  </div>
+
+  <div class="left">
+    <h1>I write music</h1>
+    <h2>Current stuff</h2>
+    <h2>Mixed Signals <span class="description">(I like singing)</h2>
+    <ul>
+    <li><a href="mp3/sound-is-our-soul.mp3">Sound Is Our Soul</a> <span class="description">(a hymn to the power of group drumming)</span></li>
+    <li><a href="mp3/how-high.mp3">How High</a> <span class="description">(political, reggae-ish)</span></li>
+    <li><a href="mp3/shadows-on-the-face-of-the-ocean.mp3">Shadows on the Face of the Ocean</a> <span class="description">(downtempo stormclouds)</span></li>
+    <li><a href="mp3/dust-cloud-halo.mp3">Dust Cloud Halo</a> <span class="description">(American desert Mellotron angel growling)</span></li>
+    <li><a href="mp3/until-you-can-face-going-home-again.mp3">Until You Can Face Going Home Again</a> <span class="description">(cigarettes and alcohol and drum machines)</span></li>
+    <li><a href="mp3/like-you-think-im-human.mp3">Like You Think I'm Human</a> <span class="description">(industrial-pop-ish with a twist)</span></li>
+    <li><a href="mp3/on-the-way-to-search-for-jane.mp3">On The Way To Search For Jane (demo)</a> <span class="description">(alt rock)</span></li>
+    <li><a href="mp3/princesa-dos-orixas.mp3">Princesa dos Orixas</a> <span class="description">(dreamy synthpop cover of the Rio Maracatu classic)</span></li>
+    <li><a href="mp3/set-sail.mp3">Set Sail</a> <span class="description">(acoustic musings)</span></li>
+    <li><a href="mp3/first-we-take-manhattan.mp3">First We Take Manhattan</a> <span class="description">(Leonard Cohen if he was a shouty punk with a guitar)</span></li>
+    </ul>
+
+    <h2>Digital <span class="description">(I like dance music)</span></h2>
+    <ul>
+    <li><a href="mp3/rock-star.mp3">Rock Star</a> <span class="description">(hyperactive drum'n'bass)</span></li>
+    <li><a href="mp3/deny-everything.mp3">Deny Everything</a> <span class="description">(chilled-out drum'n'bass)</span></li>
+    <li><a href="mp3/loud-noises.mp3">Loud Noises (Hands On Drums)</a> <span class="description">(real drums, synthetic bass)</span></li>
+    <li><a href="mp3/in-in-in-this-this-message.mp3">In In In This This Message</a> <span class="description">(tongue-in-cheek doof doof based on predictive text)</span></li>
+    </ul>
+
+    <h2>True Analogue <span class="description">(live music and field recordings)</span></h2>
+    <ul>
+    <li><a href="mp3/rehearsal recording%20-%201%20-%20winter%20call%20and%20repercussions.mp3">Winter Call / Repercussions</a> <span class="description">(Winter Drummers 2015)</span></li>
+    <li><a href="mp3/rehearsal recording%20-%202%20-%20winter%20poem.mp3">Winter Poem</a> <span class="description">(Winter Drummers 2015)</span></li>
+    <li><a href="mp3/rehearsal recording%20-%203%20-%20swagger.mp3">Swagger</a> <span class="description">(Winter Drummers 2015)</span></li>
+    <li><a href="mp3/rehearsal recording%20-%204%20-%20hammer%20of%20the%20gods.mp3">Hammer of the Gods</a> <span class="description">(Winter Drummers 2015)</span></li>
+    <li><a href="mp3/rehearsal recording%20-%205%20-%20five%20calls.mp3">Five Calls</a> <span class="description">(Winter Drummers 2015)</span></li>
+    <li><a href="mp3/rehearsal recording%20-%206%20-%20cailleachs%20lament%20and%20winter%20call.mp3">Cailleach's Lament / Winter Call</a> <span class="description">(Winter Drummers 2015)</span></li>
+    </ul>
+
+    <h2>Old stuff</h2>
+    <p>Not necessarily chronologically - these just don't represent my current work. Some of them aren't very good. Take them as a documentary timeline ;)</p>
+    <p>
+    <a id="collapseOldStuffShow" href="#">Show</a>
+    <a id="collapseOldStuffHide" href="#" style="display: none">Hide</a>
+    <script>
+      function display( id, displayValue ) {
+        document.getElementById( id ).style.display = displayValue;
+      }
+
+      document.getElementById('collapseOldStuffShow').addEventListener( 'click', function() {
+        display( 'collapseOldStuff', 'block' );
+        display( 'collapseOldStuffShow', 'none' );
+        display( 'collapseOldStuffHide', 'block' );
+        return false;
+      }, false );
+
+      document.getElementById('collapseOldStuffHide').addEventListener( 'click', function() {
+        display( 'collapseOldStuff', 'none' );
+        display( 'collapseOldStuffShow', 'block' );
+        display( 'collapseOldStuffHide', 'none' );
+        return false;
+      }, false );
+    </script>
+    </p>
+    <div id="collapseOldStuff" style="display: none">
+    <h2>Mixed Signals</h2>
+    <ul>
+    <li><a href="mp3/ice-build-up.mp3">Ice Build Up</a> <span class="description">(downtempo synth rock)</span></li>
+    <li><a href="mp3/ice-build-up.mp3">Receive Redux</a> <span class="description">(synths and rain and concrete)</span></li>
+    <li><a href="mp3/carnivore.mp3">Carnivore</a> <span class="description">(punky not-what-you-expect subversion)</span></li>
+    <li><a href="mp3/story-in-your-bones.mp3">Story In Your Bones</a> <span class="description">(swagger wot)</span></li>
+    <li><a href="mp3/sweep-us-all-away.mp3">Sweep Us All Away</a> <span class="description">(live blues rock demo)</span></li>
+    <li><a href="mp3/chemicals-i-crave.mp3">Chemicals I Crave</a> <span class="description">(wonky hand drum and electric guitar soup)</span></li>
+    <li><a href="mp3/context.mp3">Context</a> <span class="description">(slow burning mostly-wordless jam)</span></li>
+    <li><a href="mp3/cut-the-cable.mp3">Cut The Cable</a> <span class="description">(rock. kinda.)</span></li>
+    <li><a href="mp3/signal.mp3">Signal in the Dead of Night</a> <span class="description">(synth rock)</span></li>
+    <li><a href="mp3/burn-away.mp3">Burn Away</a> <span class="description">(digital metal)</span></li>
+    <li><a href="mp3/milesofwaves.mp3">Miles of Waves</a> <span class="description">(melancholy power pop)</span></li>
+    <li><a href="mp3/fireandlove.mp3">Fire And Love</a> <span class="description">(fist-in-the-air power pop)</span></li>
+    <li><a href="mp3/versus-nothing.mp3">Versus Nothing</a> <span class="description">(dark weird rock)</span></li>
+    <li><a href="mp3/watch-like-pebbles.mp3">Watch Like Pebbles</a> <span class="description">(minimal acoustic mumbling)</span></li>
+    <li><a href="mp3/leaves.mp3">Leaves</a> <span class="description">(melancholy memories, hand drums, mandolin)</span></li>
+    <li><a href="mp3/broken-in-some-way.mp3">Broken In Some Way</a> <span class="description">(melancholy acoustic weirdness)</span></li>
+    <li><a href="mp3/dead-at-the-door.mp3">Dead At The Door</a> <span class="description">(post-apocalyptic shouting)</span></li>
+    <li><a href="mp3/displaced.mp3">Displaced</a> <span class="description">(electro-pop?)</span></li>
+    <li><a href="mp3/dreams-dont-fade.mp3">Dreams Don't Fade</a> <span class="description">(funky!)</span></li>
+    <li><a href="mp3/four-chord-love-song.mp3">Four Chord Love Song</a> <span class="description">(because everybody's gotta write one)</span></li>
+    <li><a href="mp3/too-close-to-the-fire.mp3">Too Close To The Fire?</a> <span class="description">(chilled out hand drum / synth / guitar jam)</span></li>
+    <li><a href="mp3/warmth-and-light.mp3">Warmth and Light</a> <span class="description">(hippie stuff)</span></li>
+    <li><a href="mp3/wednesday-night.mp3">Wednesday Night to Sunday Morning (demo)</a> <span class="description">(jangly indie pop)</span></li>
+    <li><a href="mp3/trains.mp3">Dream Of Trains (demo)</a> <span class="description">(early experiments in rough-and-ready everything-live recording)</span></li>
+    </ul>
+
+    <h2>Digital</h2>
+    <ul>
+    <li><a href="mp3/next-to-your-own.mp3">Next To Your Own</a> <span class="description">(waking from a strange jagged dream about doors)</span></li>
+    <li><a href="mp3/after-all-this-time.mp3">After All This Time</a> <span class="description">(dubstep)</span></li>
+    <li><a href="mp3/symmetry.mp3">Symmetry / Towers to Stand / Most Defines Us / Mutation</a> <span class="description">(nine minute 5/4 d'n'b mash)</span></li>
+    <li><a href="mp3/blacksun.mp3">Black Sun</a> <span class="description">(frenetic breakbeat)</span></li>
+    <li><a href="mp3/synthetic.mp3">Synthetic</a> <span class="description">(drum'n'bass)</span></li>
+    <li><a href="mp3/cognitive-dissonance.mp3">Cognitive Dissonance</a> <span class="description">(super fast shouty drum'n'guitar'n'bass)</span></li>
+    <li><a href="mp3/road.mp3">A Road On Which To Walk</a> <span class="description">(hippie drum'n'bass with whistles and slide guitar)</span></li>
+    <li><a href="mp3/khaluum.mp3">Khaluum</a> <span class="description">(high tempo drum'n'bass with guitar solos)</span></li>
+    <li><a href="mp3/futurecity.mp3">Future City</a> <span class="description">(cyberpunkish dance - from 2002!)</span></li>
+    <li><a href="mp3/watch-like-pebbles-dub.mp3">Watch Like Pebbles (Wub Machine Remix)</a> <span class="description">(surprisingly listenable automatic dubstep remix of Watch Like Pebbles by <a href="http://the.wubmachine.com">The Wub Machine</a>)</span></li>
+    </ul>
+    </div>
+    <p>New stuff always goes up on my <a href="http://soundcloud.com/camtarn">SoundCloud page</a> before it arrives here.</p>
+  </div>
+
+  <div class="right making">
+    <h1>Occasionally I draw and paint and make things</h1>
+    <a href="images/projects/mask.jpg"><img src="images/projects/mask-thumb.jpg" /></a>
+    <a href="images/projects/cyclist.jpg"><img src="images/projects/cyclist-thumb.jpg" /></a>
+    <a href="images/projects/cornflowers.jpg"><img src="images/projects/cornflowers-thumb.jpg" /></a>
+    <a href="images/projects/wall-art.jpg"><img src="images/projects/wall-art-thumb.jpg" /></a>
+    <a href="images/projects/three-horizontal-lines.jpg"><img src="images/projects/three-horizontal-lines-logo-thumb.jpg" /></a>
+    <a href="images/projects/unfinished-string-instrument.jpg"><img src="images/projects/unfinished-string-instrument-thumb.jpg" /></a>
+    <a href="images/projects/unfinished-cymbal-tail.jpg"><img src="images/projects/unfinished-cymbal-tail-thumb.jpg" /></a>
+  </div>
+
+  <div class="left">
+    <h1>Say hi?</h1>
+    <p>You can catch me on <a href="https://facebook.com/camtarn">Facebook</a>, check out my CV on <a href="https://www.linkedin.com/in/camtarn">LinkedIn</a>, or <a href="camtarn-website-contact@camtarn.org">email me</a>.</p>
+    <span class="description">Photo credit: <a href="https://www.flickr.com/photos/hinkelstone/2403077678">'birds - tendrils - hearts - flowers {curtain pattern}' by quapan</a></span>
+
+  <div class="prop"></div>
+
+</div>
+<div id="no">
+<h1>Vital statistics</h1>
+<p>Height: quite tall</p>
+<p>Weight: due to gravity</p>
+<p>Eye colour: brown</p>
+<p>Favourite food: things without meat in</p>
+<p>Favourite editor: Vim</p>
+<p>Favourite drum fill: tak takarak takarak tak takarak tak takarak tak takarak takaraka</p>
+</div>
+</body>
+</html>
